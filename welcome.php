@@ -1,3 +1,8 @@
+<?php
+    include("connection.php");
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,31 +45,18 @@
             </div>
         </div>
     </header>
+
     <div class="hero_section">
         <div class="hero_msg">
-            	<h3>Enter the phone number:</h3>
+            <h3>Enter the phone number:</h3>
+            <input class="input" type="number" placeholder="Number">
+            <a href="mylocation.html">
+                <button type="button" class="style_button">SUBMIT</button>
+            </a>
 
-		<form id="myForm" action="temp.php" method="post">
-			<input class="input" type="number" placeholder="Number" id="input_value">
-        		<i class="fa-solid fa-magnifying-glass" onclick="submitForm()"></i>
-    		</form>
         </div>
-</div>
+    </div>
 
-<script>
-        function submitForm() {
-            var form = document.getElementById("myForm");
-            var inputValue = document.getElementById("input_value").value;
-
-            var hiddenInput = document.createElement("input");
-            hiddenInput.setAttribute("type", "hidden");
-            hiddenInput.setAttribute("name", "input_value");
-            hiddenInput.setAttribute("value", inputValue);
-            form.appendChild(hiddenInput);
-
-            form.submit();
-      }
-      </script>
     <footer>
         <div class="foot_panel1">
             Back To Top

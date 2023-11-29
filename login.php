@@ -13,6 +13,13 @@
             if($data['password']== $password)
             {
                 header("Location: welcome.php");
+            }else
+            {
+
+                echo '<script>
+                            window.location.href = "index.php";
+                            alert("call coming!")
+                            </script>';
             }
         }
         else

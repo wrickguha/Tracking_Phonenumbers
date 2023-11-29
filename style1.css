@@ -94,12 +94,28 @@
     bottom: 350px;
 }
 
+
 .input{
     height: 32px;
     width: 125px;
     margin-right: 5px;
     border: none;
 }
+
+.style_button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
 
 .foot_panel1{
     background-color: #136576;
