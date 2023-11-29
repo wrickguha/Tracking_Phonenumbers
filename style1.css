@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F3545;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar-logo
+{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("./5212_FE_Logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 120px;
+}
+
+
+.contents{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 15px;
+}
+
+.contents_select{
+    height: 50px;
+    width: 110px;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    color: aliceblue;
+    font-weight: 50px;
+}
+
+.border:hover{
+    border: 0.5px solid white;
+}
+
+.side{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.nav-language
+{
+    font-size: 25px;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.nav-cart{
+    font-size: 25px;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.nav-user{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.hero_section{
+    background-image: url("./top-view-map-blue-background.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.hero_msg{
+    background-color: beige;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+    font-size: 1.7rem;
+    border-radius: 4px;
+    position: relative;
+    bottom: 350px;
+}
+
+.input{
+    height: 32px;
+    width: 125px;
+    margin-right: 5px;
+    border: none;
+}
+
+.foot_panel1{
+    background-color: #136576;
+    color: aliceblue;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+    font: 1.5rem;
+}
+
+.foot_panel2{
+    height: 150px;
+    background-color: #154048;
+    border: 1px solid white;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    margin: 10px;
+    display: block;
+    font-size: 0.85rem;
+    color: #dddddd;
+}
+
+.foot_panel3{
+    background-color: #0F3545;
+    height: 50px;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
